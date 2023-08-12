@@ -29,3 +29,28 @@ $(document).ready(function(){
 
 });
 
+//. challenge example //
+
+/* $('p').click(function(){
+    $(this).text("Changed only the text for this paragraph");
+});
+$('.card').mouseenter(function(){
+    $(this).fadeTo(2000,0.2).fadeTo(2000,1);
+});
+
+*/
+
+//************ Traversing Challenge 1 ********************** */
+
+/* 
+$('p').click(function(){
+    $(this).children('a').css('background-color', 'yellow');
+});
+*/
+
+//************ Traversing sideways Challenge ********************** */
+
+/* $("button").click(function() {
+	$(this).next().slideToggle('slow');
+});
+ */
